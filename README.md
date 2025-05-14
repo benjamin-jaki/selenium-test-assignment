@@ -68,7 +68,6 @@ file.download.path="resources/test-images"
 
 There is an example config.properties file in the tests/resources/ directory, called example.config.properties.
 
-TODO - validate this
 ## Test Cases
 1. Test Page Load
   - File: SeleniumTest.java
@@ -86,14 +85,14 @@ TODO - validate this
     3. Verify that the username is displayed after login.
     4. Logout and verify that the login button is visible again.
   - Assertions:
-  - Username matches the logged-in user.
-  - Login button is visible after logout.
+    - Username matches the logged-in user.
+    - Login button is visible after logout.
 3. Test Profile Page and Navigation
   - File: SeleniumTest.java
   - Method: testProfileAndBack()
   - Description: Tests navigation to the profile page and back to the main page.
   - Assertions:
-  - Profile page header contains the username.
+    - Profile page header contains the username.
     - Main page header contains "Fórumok" after navigating back.
 4. Test Change Birthday
   - File: SeleniumTest.java
@@ -111,7 +110,7 @@ TODO - validate this
   - Description: Tests the visibility of submenus when hovering over menu items.
   - Assertions:
     - Submenu visibility changes to "block" when hovered.
-    - Submenu visibility changes to "none" when not hovered.
+    - Submenu visibility changes to "none" when hovered on something else.
 6. Test Static Page Content
   - File: SeleniumTest.java
   - Method: testStaticPage()
